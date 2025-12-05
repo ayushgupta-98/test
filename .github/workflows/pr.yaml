@@ -16,10 +16,12 @@ jobs:
       - name: Post sticky PR comment
         uses: marocchino/sticky-pull-request-comment@v2
         with:
+          header: workflow-result
           message: |
             Test
       - name: Post sticky PR comment2
         uses: marocchino/sticky-pull-request-comment@v2
         with:
+          header: workflow-result2
           message: |
             Test2
